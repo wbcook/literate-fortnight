@@ -6,11 +6,18 @@
   <link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
 <body>
+  <div id="cards-container">
+    <div id="cards-table">Table</div>
+    <div id="cards-hand">Your Hand</div>
+  </div>
   <div id="chat-container">
-    <ul id="chat-room"></ul>
-    <form id="chat-interface" action="">
-      <textarea id="chat-input-field" autocomplete="off"></textarea><button id="chat-button">Chat</button>
-    </form>
+    <div id="chat-room">
+      <div>Welcome to the chat room.</div>
+    </div>
+    <div id="chat-interface" action="">
+      <textarea id="chat-input-field" autocomplete="off"></textarea>
+      <button id="chat-button">Chat</button>
+    </div>
   </div>
   <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
   <script src="http://code.jquery.com/jquery-1.11.1.js"></script>

@@ -1,3 +1,4 @@
+// 1. io polling 404
 // http://stackoverflow.com/questions/24793255/socket-io-cant-get-it-to-work-having-404s-on-some-kind-of-polling-call
 var socket = io('http://localhost:1337');
 $('#chat-button').on('click', function(){
